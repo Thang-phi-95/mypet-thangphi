@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script
+    type="text/javascript"
+    src="assets/Camera-master/scripts/jquery.min.js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="assets/Camera-master/scripts/jquery.mobile.customized.min.js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="assets/Camera-master/scripts/jquery.easing.1.3.js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="assets/Camera-master/scripts/camera.min.js"
+  ></script>
+  <script>
+    jQuery(function () {
+      jQuery("#camera_wrap_1").camera({
+        thumbnails: true,
+      });
+
+      jQuery("#camera_wrap_2").camera({
+        height: "400px",
+        loader: "bar",
+        pagination: false,
+        thumbnails: true,
+      });
+    });
+  </script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer">
+
+      <link rel="stylesheet" href="assets/css/html5reset.css" />
+      <link rel="stylesheet" href="assets/bootraps/bootstrap.min.css">
+      <link rel="stylesheet" href="assets/css/style.css" />
+    
+
+    <title>Index</title>
+
+    <link
+      rel="stylesheet"
+      id="camera-css"
+      href="./Camera-master/css/camera.css"
+      type="text/css"
+      media="all"
+    />
+    <style>
+
+      .fluid_container {
+        max-width: 100%;
+        width: 100%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+   
+  </head>
+
+  <body>
+    <section id="topbar" class="topbar">
+      <div class="container">
+        <div class="topbar__main">
+          <ul class="topbar__address">
+            <li class="topbar__address-item">
+              <a href="#" class="topbar__address-item--link link"
+                ><span class="topbar__address-icon"
+                  ><i class="fa-solid fa-location-dot"></i
+                ></span>
+                FoodFarm, W 35th St, New York</a
+              >
+            </li>
+            <li class="topbar__address-item">
+              <a href="#" class="topbar__address-item--link link"
+                ><span class="topbar__address-icon"
+                  ><i class="fa-solid fa-envelope"></i
+                ></span>
+                mypet_info@gmail.com</a
+              >
+            </li>
+          </ul>
+          <ul class="topbar__social">
+            <li class="topbar__social-item">
+              <a href="#" class="topbar__social-item--link link"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+            </li>
+            <li class="topbar__social-item">
+              <a href="#" class="topbar__social-item--link link"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+            </li>
+            <li class="topbar__social-item">
+              <a href="#" class="topbar__social-item--link link"
+                ><i class="fa-brands fa-pinterest"></i
+              ></a>
+            </li>
+            <li class="topbar__social-item">
+              <a href="#" class="topbar__social-item--link link"
+                ><i class="fa-brands fa-google"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- end-topbar -->
+    <header id="header" class="header">
+      <div class="header__main container">
+        <a href="index.html" class="logo"
+          ><img src="assets/img/my Pet.png" alt="logo" class="logo__img"
+        /></a>
+        <nav class="nav__menu">
+          <ul class="nav__menu-list">
+            <li class="nav__menu-list--item">
+              <a href="#" class="nav__menu-list--link active">HOME</a>
+              <ul class="nav__menu-list--sub">
+                <li class="nav__menu-list--sub---item">
+                  <a href="index.html" class="nav__menu-list--sub---link"
+                    >Home version one</a
+                  >
+                 
+                </li>
+                <li class="nav__menu-list--sub---item">
+                  <a href="home-2.html" class="nav__menu-list--sub---link"
+                    >Home version two</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav__menu-list--item">
+              <a href="#" class="nav__menu-list--link">GALLERY</a>
+              <ul class="nav__menu-list--sub">
+                <li class="nav__menu-list--sub---item">
+                  <a href="gallery.html" class="nav__menu-list--sub---link"
+                    >Gallery Version One</a
+                  >
+                </li>
+                <li class="nav__menu-list--sub---item">
+                  <a
+                    href="gallery-version2.html"
+                    class="nav__menu-list--sub---link"
+                    >Gallery Version Two</a
+                  >
+                </li>
+                <li class="nav__menu-list--sub---item">
+                  <a
+                    href="gallery-version3.html"
+                    class="nav__menu-list--sub---link"
+                    >Gallery Version Three</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav__menu-list--item">
+              <a href="#" class="nav__menu-list--link">PAGES</a>
+              <ul class="nav__menu-list--sub">
+                <li class="nav__menu-list--sub---item">
+                  <a href="about.html" class="nav__menu-list--sub---link"
+                    >About Us</a
+                  >
+                </li>
+                <li class="nav__menu-list--sub---item">
+                  <a href="team.html" class="nav__menu-list--sub---link"
+                    >Our team</a
+                  >
+                </li>
+                <li class="nav__menu-list--sub---item">
+                  <a href="testimonial.html" class="nav__menu-list--sub---link"
+                    >Testimonial</a
+                  >
+                </li>
+                <li class="nav__menu-list--sub---item">
+                  <a href="fag.html" class="nav__menu-list--sub---link">Faq</a>
+                </li>
+                <li class="nav__menu-list--sub---item">
+                  <a href="error.html" class="nav__menu-list--sub---link"
+                    >Error Page</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav__menu-list--item">
+              <a href="#" class="nav__menu-list--link">SERVICES</a>
+              <ul class="nav__menu-list--sub">
+                <li class="nav__menu-list--sub---item">
+                  <a href="server.html" class="nav__menu-list--sub---link"
+                    >Services</a
+                  >
+                </li>
+                <li class="nav__menu-list--sub---item">
+                  <a href="detail.html" class="nav__menu-list--sub---link"
+                    >Service Details</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav__menu-list--item">
+              <a href="#" class="nav__menu-list--link">BLOG</a>
+              <ul class="nav__menu-list--sub">
+                <li class="nav__menu-list--sub---item">
+                  <a href="blog.html" class="nav__menu-list--sub---link"
+                    >Blog Version One</a
+                  >
+                </li>
+                <li class="nav__menu-list--sub---item">
+                  <a
+                    href="blog-version-2.html"
+                    class="nav__menu-list--sub---link"
+                    >Blog version Two</a
+                  >
+                </li>
+                <li class="nav__menu-list--sub---item">
+                  <a
+                    href="blog-version-3.html"
+                    class="nav__menu-list--sub---link"
+                    >Blog Details</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav__menu-list--item">
+              <a href="#" class="nav__menu-list--link">SHOP</a>
+              <ul class="nav__menu-list--sub">
+                <li class="nav__menu-list--sub---item">
+                  <a href="shop.html" class="nav__menu-list--sub---link"
+                    >Shop One</a
+                  >
+                </li>
+                <li class="nav__menu-list--sub---item">
+                  <a href="shop-detail.html" class="nav__menu-list--sub---link"
+                    >Shop Details</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav__menu-list--item">
+              <a href="contact.html" class="nav__menu-list--link">CONTACT</a>
+            </li>
+           
+            <div class="group__nav-right--search">
+              <li class="nav__menu-list--item nav__menu-list--item---cart">
+                <i class="nav__menu--search---child nav__menu--cart fa-solid fa-bag-shopping "></i>
+                 <p class="nav__menu--search---child nav__menu-list--item---cart----child" >2</p>
+                <div class="list__cart">
+                <div class="list__cart-border"></div>
+                <h4 class="list__cart-heading">Product added </h4>
+                <ul class="list__cart-menu">
+                  <div class="list__cart-menu--icon">
+                    <i class="fa-solid fa-person-walking-luggage"></i>
+                  </div>
+                    <li class="list__cart-menu--item" id="cart-menu-item">
+                        <a href="" class="list__cart-menu--link"><img src="assets/img/img-26.jpg" alt="" class="list__cart-menu--img"></a>
+                        <div class="list__cart-menu--text">
+                            <div class="list__cart-menu--text---name">
+                                <h5 class="list__cart-menu--text---name----title">Royal Canin Maxi Canin Maxi Digestive
+                                    Care 15 KG Royal Canin Maxi Canin are 15 KG Royal Canin Maxi Canin 
+                                </h5>
+                                <div class="list__cart-menu--text---name----price"><p>83$</p> <span class="amount">x 2</span></div>
+                            </div>
+                            <div class="list__cart-menu--text---another">
+                                <p class="list__cart-menu--text---another----color">Color : <span>brow</span></p>
+                                <p class="list__cart-menu--text---another----delete">Delete</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list__cart-menu--item" id="cart-menu-item">
+                        <a href="" class="list__cart-menu--link"><img src="assets/img/img-27.jpg" alt="" class="list__cart-menu--img"></a>
+                        <div class="list__cart-menu--text">
+                            <div class="list__cart-menu--text---name">
+                                <h5 class="list__cart-menu--text---name----title">Royal Canin Maxi Canin Maxi Digestive
+                                    Care 15 KG Royal Canin Maxi Canin are 15 KG Royal Canin Maxi Canin 
+                                </h5>
+                                <div class="list__cart-menu--text---name----price"><p>84$</p> <span class="amount">x 2</span></div>
+                            </div>
+                            <div class="list__cart-menu--text---another">
+                                <p class="list__cart-menu--text---another----color">Color : <span>green</span></p>
+                                <p class="list__cart-menu--text---another----delete">Delete</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list__cart-menu--item" id="cart-menu-item">
+                        <a href="" class="list__cart-menu--link"><img src="assets/img/img-28.jpg" alt="" class="list__cart-menu--img"></a>
+                        <div class="list__cart-menu--text">
+                            <div class="list__cart-menu--text---name">
+                                <h5 class="list__cart-menu--text---name----title">Royal Canin Maxi Canin Maxi Digestive
+                                    Care 15 KG Royal Canin Maxi Canin are 15 KG Royal Canin Maxi Canin 
+                                </h5>
+                                <div class="list__cart-menu--text---name----price"><p>20$</p> <span class="amount">x 2</span></div>
+                            </div>
+                            <div class="list__cart-menu--text---another">
+                                <p class="list__cart-menu--text---another----color">Color : <span>blue</span></p>
+                                <p class="list__cart-menu--text---another----delete">Delete</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list__cart-menu--item" id="cart-menu-item">
+                        <a href="" class="list__cart-menu--link"><img src="assets/img/img-29.jpg" alt="" class="list__cart-menu--img"></a>
+                        <div class="list__cart-menu--text">
+                            <div class="list__cart-menu--text---name">
+                                <h5 class="list__cart-menu--text---name----title">Royal Canin Maxi Canin Maxi Digestive
+                                    Care 15 KG Royal Canin Maxi Canin are 15 KG Royal Canin Maxi Canin 
+                                </h5>
+                                <div class="list__cart-menu--text---name----price"><p>40$</p> <span class="amount">x 2</span></div>
+                            </div>
+                            <div class="list__cart-menu--text---another">
+                                <p class="list__cart-menu--text---another----color">Color : <span>red</span></p>
+                                <p class="list__cart-menu--text---another----delete">Delete</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list__cart-menu--item" id="cart-menu-item">
+                        <a href="" class="list__cart-menu--link"><img src="assets/img/img-26.jpg" alt="" class="list__cart-menu--img"></a>
+                        <div class="list__cart-menu--text">
+                            <div class="list__cart-menu--text---name">
+                                <h5 class="list__cart-menu--text---name----title">Royal Canin Maxi Canin Maxi Digestive
+                                    Care 15 KG Royal Canin Maxi Canin are 15 KG Royal Canin Maxi Canin 
+                                </h5>
+                                <div class="list__cart-menu--text---name----price"><p>80$</p> <span class="amount">x 2</span></div>
+                            </div>
+                            <div class="list__cart-menu--text---another">
+                                <p class="list__cart-menu--text---another----color">Color : <span>yello</span></p>
+                                <p class="list__cart-menu--text---another----delete">Delete</p>
+                            </div>
+                        </div>
+                    </li>
+                   
+                </ul>
+              </div>
+              </li>
+              
+              <li class="nav__menu-list--item nav__menu-list--item---search">
+                <i class="nav__menu--search---child nav__menu--cart fa-solid fa-magnifying-glass"></i>
+              </li>
+            </div>
+        
+          </ul>
+        </nav>
+        <div class="menu__mobile">
+          <span class="menu__mobile-item--menu" name="icon-menu"> <i class="fa-solid fa-bars"></i></span>
+          <span class="menu__mobile-item--menu" name="icon-close"> <i class="fa-solid fa-rectangle-xmark"></i></span>
+         </div>
+        </div>
+        <div class="menu__mobile-overlay"></div>
+    </header>
+    <!-- end-header -->
+    <section id="slider" class="slider">
+      <div class="main__banner">
+        <div class="container">
+          <div class="row">
+            <div class="col-7">
+              <div class="main__banner-text">
+                <p class="main__banner-text--title">Blog list</p>
+                <span class="main__banner-text--more"
+                  >Pet lovers rely on Becky’s Pet Care for professional dog
+                  walking and pet sitting.</span
+                >
+              </div>
+            </div>
+            <div class="col-5 d-f-j-e">
+              <div class="button_banner">
+                <a href="#" class="btn">Get A Quote</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="banner__img">
+          <img src="assets/img/dog-1.png" alt="">
+        </div>
+      </div>
+    </section>
+    <!-- end-siderbar-banner -->
+    <section id="breadcrumb" class="breadcrumb">
+      <div class="container">
+        <nav class="nav__breadcrumb">
+          <ol class="nav__breadcrumb-item">
+            <li class="nav__breadcrumb-item-child"><a href="#">Home</a></li>
+            <li class="nav__breadcrumb-item-child"><span>-</span></li>
+            <li class="nav__breadcrumb-item-child"><a href="#">Blog</a></li>
+            <li class="nav__breadcrumb-item-child"><span>-</span></li>
+            <li class="nav__breadcrumb-item-child">Blog-1</li>
+          </ol>
+        </nav>
+      </div>
+    </section>
+    <!-- end-breadcrumb -->
+
+    <section id="blog" class="blog">
+      <div class="container">
+        <div class="row">
+          <div class="col-9">
+            <div class="team__text">
+              <p class="team__text-title f-s">
+                Our happy customer blog List,Update your<br />
+                <span class="b-d-b">News</span> letter, Get Latet topic
+              </p>
+              <span class="team__text-sub"
+                >In a professional context it often happens that private or
+                corporate clients order a publication to be made and <br />
+                presented with the actual content still not being ready.
+              </span>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="blog-img">
+              <img src="assets/img/pawprint.png" alt="pawprint" />
+              <img src="assets/img/bones.png" alt="bones" />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-8">
+            <figure class="figure__blog3">
+              <div class="figure__blog3-img">
+                <img
+                  src=".assets/img/img-20.jpg"
+                  alt="img"
+                  class="figure__blog3-img--child"
+                />
+              </div>
+              <div class="figure__blog3-text">
+                <div class="d-f-j-s">
+                  <div>
+                    <h3 class="figure__blog3-text--title">
+                      “The Dog Days of Summer”
+                    </h3>
+                    <p class="figure__blog3-text--sub">
+                      Post by <span>Mahfuz</span> in Uncategorized
+                      <span> 3 Comment</span>
+                    </p>
+                  </div>
+                  <div class="figure__blog3-text--button">
+                    <a href="#" class="btn">13/04/17</a>
+                  </div>
+                </div>
+                <p class="figure__blog3-text--more">
+                  Some people say it’s too hot this time of year, especially for
+                  dogs—that’s obvious when you see dogs outside lying under the
+                  porch with their tongues hanging out! In Northern Virginia,
+                  the “Dog Days of Summer” occur during the hottest and muggiest
+                  days of the season, usually from early July through September.
+                  It is possible this saying came about because the dog star
+                  Sirius rises with the sun during this time of year, but
+                  whatever the reason for the “Dog Days,” this is just one
+                  example of how the English language is full of phrases based
+                  on animals. Here’s a fun look at the origins of a few more…
+                  Like a chicken with its head cut off: In our busy culture we
+                  sometimes act in a frenzied way. When a chicken is
+                  slaughtered,
+                </p>
+                <p class="figure__blog3-text--more">
+                  Are you a Locavore? A Locavore (n) is a person who attempts to
+                  buy and eat only foods grown, produced and processed close to
+                  their home. Animals in the Farm fresh Meats program are born
+                  and raised in the Pacific Northwest and then finished and
+                  processed using small, family-owned and operated companies.
+                </p>
+              </div>
+              <div class="row m-b-4">
+                <div class="col-6">
+                  <div class="figure__blog3-img">
+                    <img
+                      src="assets/img/img-15.jpg"
+                      alt=""
+                      class="figure__blog3-img--child"
+                    />
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="figure__blog3-img">
+                    <img
+                      src="img/img-24.jpg"
+                      alt=""
+                      class="figure__blog3-img--child"
+                    />
+                  </div>
+                </div>
+              </div>
+              <p class="figure__blog3-text--more">
+                Get your goat: Goats are often used as a calming influence in
+                barns or stables, especially with race horses today. If someone
+                steals the goat, it would theoretically upset the animals. A
+                frog in your throat: Stories used to be told about people
+                drinking from streams or ponds and swallowing eggs which would
+                then hatch in the throat and cause raspy speech!
+              </p>
+              <p class="figure__blog3-text--title---child">
+                <span>Dog</span> Care
+              </p>
+              <p class="figure__blog3-text--child">
+                Get your goat: Goats are often used as a calming influence in
+                barns or stables, especially with race horses today. If someone
+                steals the goat, it would theoretically upset the animals.
+              </p>
+              <p class="figure__blog3-text--title---child">
+                <span>Cat</span> Cate
+              </p>
+              <p class="figure__blog3-text--child">
+                These sayings are all in good fun, but how do you survive the
+                “Dogs Days of Summer” in Northern Virginia? Outdoor play becomes
+                a problem when the days get too hot, so take your pet for a walk
+                in the early or late hours of the day. . If that doesn’t work
+                for you, ask your favorite pet sitter to help out!
+              </p>
+              <div class="figure__blog3-img">
+                <img
+                  src="assets/img/img-25.jpg"
+                  alt=""
+                  class="figure__blog3-img--child"
+                />
+              </div>
+              <ul class="figure__blog3-list--text---child">
+                <li>
+                  1.Bring a medium sized pan of water to the boil. Add salt (I
+                  was taught that beans should be cooked in water as salty as
+                  the sea - this seems a lot of salt but gives a great flavour
+                  and helps to keep them green)
+                </li>
+                <li>
+                  2.Place your beans in the pan, cover and cook for 4 minutes,
+                  test to make sure they are cooked through but not overdone.
+                </li>
+                <li>
+                  3.At the same time heat up a medium frying pan and add the
+                  butter or oil and the garlic, cook gently until it starts to
+                  soften but be careful that it doesn’t burn or it will turn
+                  bitter.
+                </li>
+                <li>
+                  4.Drain off the beans and add to the frying pan. Add the
+                  breadcrumbs toss briefly, season with pepper – it shouldn’t
+                  need salt.
+                </li>
+                <li>5.Serve.</li>
+              </ul>
+              <p class="figure__blog3-text--title---child">
+                <span>Playing</span> with Pets
+              </p>
+              <ul class="figure__blog3-list--text---child">
+                <li>
+                  1. Bring a medium sized pan of water to the boil. Add salt.
+                </li>
+                <li>
+                  2. Place your beans, cover the pan and cook for 4 minutes,
+                  test to make sure they are cooked through but not overdone.
+                </li>
+                <li>
+                  3. Remove from the boiling water and place into cold water for
+                  a few minutes. This is to stop them cooking (and is called
+                  refreshing).
+                </li>
+                <li>
+                  4. Place the beans in a bowl along with the other ingredients,
+                  toss together and season to taste. If in doubt add less of the
+                  seasonings you can always add more…
+                </li>
+              </ul>
+
+              <div class="figure__blog3-social">
+                <ul class="figure__blog3-social--list">
+                  <li
+                    class="figure__blog3-social--list---item figure__blog3-social--list---item----active"
+                  >
+                    <a href="#" class="figure__blog3-social--list---link"
+                      >Facebook</a
+                    >
+                  </li>
+                  <li class="figure__blog3-social--list---item">
+                    <a href="#" class="figure__blog3-social--list---link"
+                      >Twitter</a
+                    >
+                  </li>
+                  <li class="figure__blog3-social--list---item">
+                    <a href="#" class="figure__blog3-social--list---link"
+                      >Linkedin</a
+                    >
+                  </li>
+                  <li class="figure__blog3-social--list---item">
+                    <a href="#" class="figure__blog3-social--list---link"
+                      >Google+</a
+                    >
+                  </li>
+                </ul>
+                <ul class="figure__blog3-social--tag">
+                  <li class="figure__blog3-social--tag---item">
+                    <i class="fa-solid fa-tag"></i>
+                  </li>
+                  <li class="figure__blog3-social--tag---item">
+                    <a href="#" class="figure__blog3-social--tag---link"
+                      >food,</a
+                    >
+                  </li>
+                  <li class="figure__blog3-social--tag---item">
+                    <a href="#" class="figure__blog3-social--tag---link"
+                      >organic,</a
+                    >
+                  </li>
+                  <li class="figure__blog3-social--tag---item">
+                    <a href="#" class="figure__blog3-social--tag---link"
+                      >food,</a
+                    >
+                  </li>
+                  <li class="figure__blog3-social--tag---item">
+                    <a href="#" class="figure__blog3-social--tag---link">
+                      meet</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="figure__blog3-comments">
+                <p class="figure__blog3-comments--title">
+                  <span>Com</span>ments (03)
+                </p>
+                <ul class="figure__blog3-comments--user">
+                  <li class="figure__blog3-comments--user---item">
+                    <img
+                      src="assets/img/hinh-111.jpg"
+                      alt=""
+                      class="figure__blog3-comments--user---img"
+                    />
+                    <div class="figure__blog3-comments--user---text">
+                      <div class="d-f m-b-3">
+                        <p class="figure__blog3-comments--user---text----name">
+                          Riad M
+                        </p>
+                        <p class="figure__blog3-comments--user---text----date">
+                          24/01/2017 at 1:59 am
+                        </p>
+                      </div>
+                      <p class="figure__blog3-comments--user---text----comment">
+                        We invite you to tour our web site, send us an email,
+                        find us on social media, or give us a call to learn more
+                        about our unique angle on local, integrated, natural,
+                        sustainable and humane animal production systems
+                      </p>
+                      <span
+                        class="figure__blog3-comments--user---text----button"
+                      >
+                        Reply
+                      </span>
+                    </div>
+                  </li>
+                  <ul class="figure__blog3-comments--user---reply">
+                    <li class="figure__blog3-comments--user---item">
+                      <img
+                        src="assets/img/hinh-111.jpg"
+                        alt=""
+                        class="figure__blog3-comments--user---img"
+                      />
+                      <div class="figure__blog3-comments--user---text">
+                        <div class="d-f m-b-3">
+                          <p
+                            class="figure__blog3-comments--user---text----name"
+                          >
+                            Gec Celic
+                          </p>
+                          <p
+                            class="figure__blog3-comments--user---text----date"
+                          >
+                            24/01/2017 at 1:59 am
+                          </p>
+                        </div>
+                        <p
+                          class="figure__blog3-comments--user---text----comment"
+                        >
+                          Are you a Locavore? A Locavore (n) is a person who
+                          attempts to buy and eat only foods grown, produced and
+                          processed close to their home. Animals in the farm
+                          Meats program are born and raised in the Pacific
+                          Northwest
+                        </p>
+                        <span
+                          class="figure__blog3-comments--user---text----button"
+                        >
+                          Reply
+                        </span>
+                      </div>
+                    </li>
+                  </ul>
+                  <li class="figure__blog3-comments--user---item">
+                    <img
+                      src="assets/img/hinh-111.jpg"
+                      alt=""
+                      class="figure__blog3-comments--user---img"
+                    />
+                    <div class="figure__blog3-comments--user---text">
+                      <div class="d-f m-b-3">
+                        <p class="figure__blog3-comments--user---text----name">
+                          Mahfuz R
+                        </p>
+                        <p class="figure__blog3-comments--user---text----date">
+                          24/01/2017 at 1:59 am
+                        </p>
+                      </div>
+                      <p class="figure__blog3-comments--user---text----comment">
+                        Premium wholesale cuts are further aged, both dry and in
+                        the bag, under stringent temperature and sanitary
+                        controls, before being distributed to customers. This
+                        closely controlled processing and dual-aging system
+                        results safety, animal production systems
+                      </p>
+                      <span
+                        class="figure__blog3-comments--user---text----button"
+                      >
+                        Reply
+                      </span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <form action="#" class="figure__blog3-form">
+                <p class="figure__blog3-form--title"><span>Leave</span> A Comment</p>
+                <input type="text" placeholder="Name" />
+                <input type="email" placeholder="Email" />
+                <textarea
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="10"
+                  placeholder="Comments"
+                ></textarea>
+
+                <div class="button d-f-j-e ">
+                  <a href="#" type="submit" class="btn">Submit Comment</a>
+                </div>
+              </form>
+            </figure>
+          </div>
+          <div class="col-4">
+            <div class="blog__right">
+              <div class="blog__right-search">
+                <input
+                  type="text"
+                  placeholder="Search"
+                  class="blog__right-search--input"
+                />
+                <i
+                  class="fa-solid fa-magnifying-glass blog__right-search--icon"
+                ></i>
+              </div>
+              <div class="blog__right-categories">
+                <p class="blog__right-categories--title">Blog Categories</p>
+                <ul class="blog__right-categories--list">
+                  <li class="blog__right-categories--list---item">
+                    <a href="#" class="blog__right-categories--list---link"
+                      >Berries<span>(07)</span></a
+                    >
+                  </li>
+                  <li class="blog__right-categories--list---item">
+                    <a href="#" class="blog__right-categories--list---link"
+                      >Fruits<span>(07)</span></a
+                    >
+                  </li>
+                  <li class="blog__right-categories--list---item">
+                    <a href="#" class="blog__right-categories--list---link"
+                      >Garden<span>(07)</span></a
+                    >
+                  </li>
+                  <li class="blog__right-categories--list---item">
+                    <a href="#" class="blog__right-categories--list---link"
+                      >Herbs<span>(07)</span></a
+                    >
+                  </li>
+                  <li class="blog__right-categories--list---item">
+                    <a href="#" class="blog__right-categories--list---link"
+                      >Vegetable<span>(07)</span></a
+                    >
+                  </li>
+                  <li class="blog__right-categories--list---item">
+                    <a href="#" class="blog__right-categories--list---link"
+                      >Eating & Cooking<span>(07)</span></a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <div class="blog__right-categories">
+                <p class="blog__right-categories--title">Some Recent Post</p>
+                <ul class="blog__right-categories--list">
+                  <li class="blog__right-categories--list---items">
+                    <img
+                      src="assets/img/img-4.jpg"
+                      alt=""
+                      class="blog__right-categories--list---items----img"
+                    />
+                    <div class="blog__right-categories--list---items----text">
+                      <a
+                        href="#"
+                        class="blog__right-categories--list---items----text-----links"
+                        >The Farm Organic Cuisine team would like</a
+                      >
+                      <p
+                        class="blog__right-categories--list---items----text-----date"
+                      >
+                        January 27, 2017 by <span>Ghost</span>
+                      </p>
+                    </div>
+                  </li>
+                  <li class="blog__right-categories--list---items">
+                    <img
+                      src="assets/img/img-222.jpg"
+                      alt=""
+                      class="blog__right-categories--list---items----img"
+                    />
+                    <div class="blog__right-categories--list---items----text">
+                      <a
+                        href="#"
+                        class="blog__right-categories--list---items----text-----links"
+                        >The Organic Farm Shop a social enterprise business</a
+                      >
+                      <p
+                        class="blog__right-categories--list---items----text-----date"
+                      >
+                        June 22, 2017 by <span>Mahfuz</span>
+                      </p>
+                    </div>
+                  </li>
+                  <li class="blog__right-categories--list---items">
+                    <img
+                      src="assets/img/img-3.jpg"
+                      alt=""
+                      class="blog__right-categories--list---items----img"
+                    />
+                    <div class="blog__right-categories--list---items----text">
+                      <a
+                        href="#"
+                        class="blog__right-categories--list---items----text-----links"
+                        >Enjoy a different shopping experience.</a
+                      >
+                      <p
+                        class="blog__right-categories--list---items----text-----date"
+                      >
+                        July 24, 2017 by <span>Riad</span>
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="blog__right-categories">
+                <p class="blog__right-categories--title">Archive</p>
+                <ul class="blog__right-categories--list">
+                  <li class="blog__right-categories--list---item">
+                    <a href="#" class="blog__right-categories--list---link none"
+                      >January 2017<span>(18)</span></a
+                    >
+                  </li>
+                  <li class="blog__right-categories--list---item">
+                    <a href="#" class="blog__right-categories--list---link none"
+                      >November 2016<span>(4)</span></a
+                    >
+                  </li>
+                  <li class="blog__right-categories--list---item">
+                    <a href="#" class="blog__right-categories--list---link none"
+                      >October 2016<span>(1)</span></a
+                    >
+                  </li>
+                  <li class="blog__right-categories--list---item">
+                    <a href="#" class="blog__right-categories--list---link none"
+                      >June 2016<span>(1)</span></a
+                    >
+                  </li>
+                  <li class="blog__right-categories--list---item">
+                    <a href="#" class="blog__right-categories--list---link none"
+                      >February 2016<span>(1)</span></a
+                    >
+                  </li>
+                  <li class="blog__right-categories--list---item">
+                    <a href="#" class="blog__right-categories--list---link none"
+                      >January 2015<span>(18)</span></a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="blog__right-categories">
+                <p class="blog__right-categories--title">Tages</p>
+                <ul class="blog__right-categories--list---tag">
+                  <li class="blog__right-categories--list---tag---item">
+                    <a
+                      href="#"
+                      class="blog__right-categories--list---tag---link"
+                      >Fresh</a
+                    >
+                  </li>
+                  <li class="blog__right-categories--list---tag---item">
+                    <a
+                      href="#"
+                      class="blog__right-categories--list---tag---link blog__right-categories--list---tag---link----active"
+                      >Fruits</a
+                    >
+                  </li>
+                  <li class="blog__right-categories--list---tag---item">
+                    <a
+                      href="#"
+                      class="blog__right-categories--list---tag---link"
+                      >Vegatable</a
+                    >
+                  </li>
+                  <li class="blog__right-categories--list---tag---item">
+                    <a
+                      href="#"
+                      class="blog__right-categories--list---tag---link"
+                      >Milk</a
+                    >
+                  </li>
+                  <li class="blog__right-categories--list---tag---item">
+                    <a
+                      href="#"
+                      class="blog__right-categories--list---tag---link"
+                      >Food</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="logo-company" class="logo-company">
+      <div class="container">
+        <div class="row d-f-a">
+          <div class="col-3">
+            <img
+              src="assets/img//slide-logo-1.png"
+              class="company_logo-img"
+              alt="logo-company"
+            />
+          </div>
+          <div class="col-3">
+            <img
+              src="assets/img//slide-logo-2.png"
+              class="company_logo-img"
+              alt="logo-company"
+            />
+          </div>
+          <div class="col-3">
+            <img
+              src="assets/img//slide-logo-3.png"
+              class="company_logo-img"
+              alt="logo-company"
+            />
+          </div>
+          <div class="col-3">
+            <img
+              src="assets/img//slide-logo-4.png"
+              class="company_logo-img"
+              alt="logo-company"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer" class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-md-7 col-sm-12">
+           <div class="footer__left-item">
+            <div class="footer__img">
+              <img src="assets/img/them-main-logo-2.jpg" alt="logo-footer" />
+            </div>
+            <p class="footer__text">
+              <span>myPet</span> was established in 2017 by Pet business
+              veterans, Rod Davies and Matthew Levington, the journey began when
+              founders Matthew Levington and Rod Davies, met up in 2017 over a
+              beer
+            </p>
+           </div>
+           <div class="footer__left-item">
+            <ul class="footer__social">
+              <li class="footer__social-item">
+                <a href="#" class="footer__social-link"
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+              </li>
+              <li class="footer__social-item">
+                <a href="#" class="footer__social-link"
+                  ><i class="fa-brands fa-linkedin-in"></i
+                ></a>
+              </li>
+              <li class="footer__social-item">
+                <a href="#" class="footer__social-link"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+              </li>
+              <li class="footer__social-item">
+                <a href="#" class="footer__social-link"
+                  ><i class="fa-brands fa-dribbble"></i
+                ></a>
+              </li>
+            </ul>
+            <div class="footer__privary">
+              <p class="footer__privary-text">Privacy Policy</p>
+              <p class="footer__privary-text">Legal Policy</p>
+            </div>
+           </div>
+          </div>
+          <div class="col-lg-3 col-md-5 col-sm-6">
+              <div class="footer__about">
+                <p class="footer__title">Important Links</p>
+                <div class="footer__about-menu">
+                    <ul class="footer__list-useful">
+                      <li class="footer__list-useful--item">
+                        <a href="#" class="footer__list-useful--link">Support</a>
+                      </li>
+                      <li class="footer__list-useful--item">
+                        <a href="#" class="footer__list-useful--link">Aboutus</a>
+                      </li>
+                      <li class="footer__list-useful--item">
+                        <a href="#" class="footer__list-useful--link">Project</a>
+                      </li>
+                      <li class="footer__list-useful--item">
+                        <a href="#" class="footer__list-useful--link">Shop</a>
+                      </li>
+                      <li class="footer__list-useful--item">
+                        <a href="#" class="footer__list-useful--link"
+                          >Performance</a
+                        >
+                      </li>
+                      <li class="footer__list-useful--item">
+                        <a href="#" class="footer__list-useful--link">News</a>
+                      </li>
+                      <li class="footer__list-useful--item">
+                        <a href="#" class="footer__list-useful--link"
+                          >PetHealth Food</a
+                        >
+                      </li>
+                    </ul>            
+                    <ul class="footer__list-useful">
+                      <li class="footer__list-useful--item">
+                        <a href="#" class="footer__list-useful--link">Pet</a>
+                      </li>
+                      <li class="footer__list-useful--item">
+                        <a href="#" class="footer__list-useful--link"
+                          >Our History</a
+                        >
+                      </li>
+                      <li class="footer__list-useful--item">
+                        <a href="#" class="footer__list-useful--link"
+                          >What We Do</a
+                        >
+                      </li>
+                      <li class="footer__list-useful--item">
+                        <a href="#" class="footer__list-useful--link"
+                          >Living Areas</a
+                        >
+                      </li>
+                      <li class="footer__list-useful--item">
+                        <a href="#" class="footer__list-useful--link"
+                          >Pet Product</a
+                        >
+                      </li>
+                      <li class="footer__list-useful--item">
+                        <a href="#" class="footer__list-useful--link"
+                          >Contact us</a
+                        >
+                      </li>
+                    </ul>
+                 
+                </div>
+              </div> 
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+               <div class="footer__newblog">
+                <div class="footer__newblog-item">
+                  <p class="footer__title">News Update</p>
+                  <p class="footer__newblog-item--text">
+                    Prefinished Solid Hardwood Flooring
+                  </p>
+                  <span class="footer__newblog-item--date">january 02,2017</span>
+                </div>
+  
+                <div class="footer__newblog-item">
+                  <p class="footer__newblog-item--text">
+                    Latst pet care in summer 12 care them well
+                  </p>
+                  <span class="footer__newblog-item--date">january 07,2017</span>
+                </div>
+              
+            
+           </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <section id="bottom-footer" class="bottom-footer">
+      <div class="container">
+        <form class="footer__copyright">
+          <p class="footer__copyright-left">
+            Copyright © 2017 <a href="#"> myPet </a> All Rights Reserved by
+            <a href="#">Unifytheme</a>
+          </p>
+
+          <div class="footer__copyright-right">
+            <input
+              class="footer__copyright-input"
+              type="text"
+              placeholder="Your email"
+            />
+            <button class="footer__copyright-button" type="submit">
+              SUBCRIBE
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <div class="overlays hidden2">
+      <div class="container">
+        <div class="overlays__input">
+          <div class="overlays__input-icon--close"> 
+           <i class="fa-solid fa-xmark "></i>
+          </div>
+          <img src="assets/img/my Pet.png" alt="" class="overlays__input-img" />
+          <div class="overlays__input-group">
+          <input type="text" class="overlays__input-input" placeholder="Search to here ..."/>
+          <i class="fa-solid fa-magnifying-glass overlays__input-icon"></i>
+          </div> 
+        </div>
+      </div>
+      </div>
+      <div class="scroon-top">
+        <i class="fa-solid fa-angles-up scroon-top--icon"></i>
+      </div>
+    <script src="assets/js/script.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
+  </body>
+</html>

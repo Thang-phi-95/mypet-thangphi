@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script
+    type="text/javascript"
+    src="assets/Camera-master/scripts/jquery.min.js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="assets/Camera-master/scripts/jquery.mobile.customized.min.js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="assets/Camera-master/scripts/jquery.easing.1.3.js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="assets/Camera-master/scripts/camera.min.js"
+  ></script>
+  <script>
+    jQuery(function () {
+      jQuery("#camera_wrap_1").camera({
+        thumbnails: true,
+      });
+
+      jQuery("#camera_wrap_2").camera({
+        height: "400px",
+        loader: "bar",
+        pagination: false,
+        thumbnails: true,
+      });
+    });
+  </script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer">
+
+      <link rel="stylesheet" href="assets/css/html5reset.css" />
+      <link rel="stylesheet" href="assets/bootraps/bootstrap.min.css">
+      <link rel="stylesheet" href="assets/css/style.css" />
+    
+
+    <title>Index</title>
+
+    <link
+      rel="stylesheet"
+      id="camera-css"
+      href="./Camera-master/css/camera.css"
+      type="text/css"
+      media="all"
+    />
+    <style>
+
+      .fluid_container {
+        max-width: 100%;
+        width: 100%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+   
+  </head>
+
+  <body>
+    <section id="topbar" class="topbar">
+      <div class="container">
+        <div class="topbar__main">
+          <ul class="topbar__address">
+            <li class="topbar__address-item">
+              <a href="#" class="topbar__address-item--link link"
+                ><span class="topbar__address-icon"
+                  ><i class="fa-solid fa-location-dot"></i
+                ></span>
+                FoodFarm, W 35th St, New York</a
+              >
+            </li>
+            <li class="topbar__address-item">
+              <a href="#" class="topbar__address-item--link link"
+                ><span class="topbar__address-icon"
+                  ><i class="fa-solid fa-envelope"></i
+                ></span>
+                mypet_info@gmail.com</a
+              >
+            </li>
+          </ul>
+          <ul class="topbar__social">
+            <li class="topbar__social-item">
+              <a href="#" class="topbar__social-item--link link"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+            </li>
+            <li class="topbar__social-item">
+              <a href="#" class="topbar__social-item--link link"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+            </li>
+            <li class="topbar__social-item">
+              <a href="#" class="topbar__social-item--link link"
+                ><i class="fa-brands fa-pinterest"></i
+              ></a>
+            </li>
+            <li class="topbar__social-item">
+              <a href="#" class="topbar__social-item--link link"
+                ><i class="fa-brands fa-google"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- end-topbar -->
+    <header id="header" class="header">
+      <div class="header__main container">
+        <a href="index.html" class="logo"
+          ><img src="assets/img/my Pet.png" alt="logo" class="logo__img"
+        /></a>
+        <nav class="nav__menu">
+          <ul class="nav__menu-list">
+            <li class="nav__menu-list--item">
+              <a href="#" class="nav__menu-list--link active">HOME</a>
+              <ul class="nav__menu-list--sub">
+                <li class="nav__menu-list--sub---item">
+                  <a href="index.html" class="nav__menu-list--sub---link"
+                    >Home version one</a
+                  >
+                 
+                </li>
+                <li class="nav__menu-list--sub---item">
+                  <a href="home-2.html" class="nav__menu-list--sub---link"
+                    >Home version two</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav__menu-list--item">
+              <a href="#" class="nav__menu-list--link">GALLERY</a>
+              <ul class="nav__menu-list--sub">
+                <li class="nav__menu-list--sub---item">
+                  <a href="gallery.html" class="nav__menu-list--sub---link"
+                    >Gallery Version One</a
+                  >
+                </li>
+                <li class="nav__menu-list--sub---item">
+                  <a
+                    href="gallery-version2.html"
+                    class="nav__menu-list--sub---link"
+                    >Gallery Version Two</a
+                  >
+                </li>
+                <li class="nav__menu-list--sub---item">
+                  <a
+                    href="gallery-version3.html"
+                    class="nav__menu-list--sub---link"
+                    >Gallery Version Three</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav__menu-list--item">
+              <a href="#" class="nav__menu-list--link">PAGES</a>
+              <ul class="nav__menu-list--sub">
+                <li class="nav__menu-list--sub---item">
+                  <a href="about.html" class="nav__menu-list--sub---link"
+                    >About Us</a
+                  >
+                </li>
+                <li class="nav__menu-list--sub---item">
+                  <a href="team.html" class="nav__menu-list--sub---link"
+                    >Our team</a
+                  >
+                </li>
+                <li class="nav__menu-list--sub---item">
+                  <a href="testimonial.html" class="nav__menu-list--sub---link"
+                    >Testimonial</a
+                  >
+                </li>
+                <li class="nav__menu-list--sub---item">
+                  <a href="fag.html" class="nav__menu-list--sub---link">Faq</a>
+                </li>
+                <li class="nav__menu-list--sub---item">
+                  <a href="error.html" class="nav__menu-list--sub---link"
+                    >Error Page</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav__menu-list--item">
+              <a href="#" class="nav__menu-list--link">SERVICES</a>
+              <ul class="nav__menu-list--sub">
+                <li class="nav__menu-list--sub---item">
+                  <a href="server.html" class="nav__menu-list--sub---link"
+                    >Services</a
+                  >
+                </li>
+                <li class="nav__menu-list--sub---item">
+                  <a href="detail.html" class="nav__menu-list--sub---link"
+                    >Service Details</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav__menu-list--item">
+              <a href="#" class="nav__menu-list--link">BLOG</a>
+              <ul class="nav__menu-list--sub">
+                <li class="nav__menu-list--sub---item">
+                  <a href="blog.html" class="nav__menu-list--sub---link"
+                    >Blog Version One</a
+                  >
+                </li>
+                <li class="nav__menu-list--sub---item">
+                  <a
+                    href="blog-version-2.html"
+                    class="nav__menu-list--sub---link"
+                    >Blog version Two</a
+                  >
+                </li>
+                <li class="nav__menu-list--sub---item">
+                  <a
+                    href="blog-version-3.html"
+                    class="nav__menu-list--sub---link"
+                    >Blog Details</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav__menu-list--item">
+              <a href="#" class="nav__menu-list--link">SHOP</a>
+              <ul class="nav__menu-list--sub">
+                <li class="nav__menu-list--sub---item">
+                  <a href="shop.html" class="nav__menu-list--sub---link"
+                    >Shop One</a
+                  >
+                </li>
+                <li class="nav__menu-list--sub---item">
+                  <a href="shop-detail.html" class="nav__menu-list--sub---link"
+                    >Shop Details</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav__menu-list--item">
+              <a href="contact.html" class="nav__menu-list--link">CONTACT</a>
+            </li>
+           
+            <div class="group__nav-right--search">
+              <li class="nav__menu-list--item nav__menu-list--item---cart">
+                <i class="nav__menu--search---child nav__menu--cart fa-solid fa-bag-shopping "></i>
+                 <p class="nav__menu--search---child nav__menu-list--item---cart----child" >2</p>
+                <div class="list__cart">
+                <div class="list__cart-border"></div>
+                <h4 class="list__cart-heading">Product added </h4>
+                <ul class="list__cart-menu">
+                  <div class="list__cart-menu--icon">
+                    <i class="fa-solid fa-person-walking-luggage"></i>
+                  </div>
+                    <li class="list__cart-menu--item" id="cart-menu-item">
+                        <a href="" class="list__cart-menu--link"><img src="assets/img/img-26.jpg" alt="" class="list__cart-menu--img"></a>
+                        <div class="list__cart-menu--text">
+                            <div class="list__cart-menu--text---name">
+                                <h5 class="list__cart-menu--text---name----title">Royal Canin Maxi Canin Maxi Digestive
+                                    Care 15 KG Royal Canin Maxi Canin are 15 KG Royal Canin Maxi Canin 
+                                </h5>
+                                <div class="list__cart-menu--text---name----price"><p>83$</p> <span class="amount">x 2</span></div>
+                            </div>
+                            <div class="list__cart-menu--text---another">
+                                <p class="list__cart-menu--text---another----color">Color : <span>brow</span></p>
+                                <p class="list__cart-menu--text---another----delete">Delete</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list__cart-menu--item" id="cart-menu-item">
+                        <a href="" class="list__cart-menu--link"><img src="assets/img/img-27.jpg" alt="" class="list__cart-menu--img"></a>
+                        <div class="list__cart-menu--text">
+                            <div class="list__cart-menu--text---name">
+                                <h5 class="list__cart-menu--text---name----title">Royal Canin Maxi Canin Maxi Digestive
+                                    Care 15 KG Royal Canin Maxi Canin are 15 KG Royal Canin Maxi Canin 
+                                </h5>
+                                <div class="list__cart-menu--text---name----price"><p>84$</p> <span class="amount">x 2</span></div>
+                            </div>
+                            <div class="list__cart-menu--text---another">
+                                <p class="list__cart-menu--text---another----color">Color : <span>green</span></p>
+                                <p class="list__cart-menu--text---another----delete">Delete</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list__cart-menu--item" id="cart-menu-item">
+                        <a href="" class="list__cart-menu--link"><img src="assets/img/img-28.jpg" alt="" class="list__cart-menu--img"></a>
+                        <div class="list__cart-menu--text">
+                            <div class="list__cart-menu--text---name">
+                                <h5 class="list__cart-menu--text---name----title">Royal Canin Maxi Canin Maxi Digestive
+                                    Care 15 KG Royal Canin Maxi Canin are 15 KG Royal Canin Maxi Canin 
+                                </h5>
+                                <div class="list__cart-menu--text---name----price"><p>20$</p> <span class="amount">x 2</span></div>
+                            </div>
+                            <div class="list__cart-menu--text---another">
+                                <p class="list__cart-menu--text---another----color">Color : <span>blue</span></p>
+                                <p class="list__cart-menu--text---another----delete">Delete</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list__cart-menu--item" id="cart-menu-item">
+                        <a href="" class="list__cart-menu--link"><img src="assets/img/img-29.jpg" alt="" class="list__cart-menu--img"></a>
+                        <div class="list__cart-menu--text">
+                            <div class="list__cart-menu--text---name">
+                                <h5 class="list__cart-menu--text---name----title">Royal Canin Maxi Canin Maxi Digestive
+                                    Care 15 KG Royal Canin Maxi Canin are 15 KG Royal Canin Maxi Canin 
+                                </h5>
+                                <div class="list__cart-menu--text---name----price"><p>40$</p> <span class="amount">x 2</span></div>
+                            </div>
+                            <div class="list__cart-menu--text---another">
+                                <p class="list__cart-menu--text---another----color">Color : <span>red</span></p>
+                                <p class="list__cart-menu--text---another----delete">Delete</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list__cart-menu--item" id="cart-menu-item">
+                        <a href="" class="list__cart-menu--link"><img src="assets/img/img-26.jpg" alt="" class="list__cart-menu--img"></a>
+                        <div class="list__cart-menu--text">
+                            <div class="list__cart-menu--text---name">
+                                <h5 class="list__cart-menu--text---name----title">Royal Canin Maxi Canin Maxi Digestive
+                                    Care 15 KG Royal Canin Maxi Canin are 15 KG Royal Canin Maxi Canin 
+                                </h5>
+                                <div class="list__cart-menu--text---name----price"><p>80$</p> <span class="amount">x 2</span></div>
+                            </div>
+                            <div class="list__cart-menu--text---another">
+                                <p class="list__cart-menu--text---another----color">Color : <span>yello</span></p>
+                                <p class="list__cart-menu--text---another----delete">Delete</p>
+                            </div>
+                        </div>
+                    </li>
+                   
+                </ul>
+              </div>
+              </li>
+              
+              <li class="nav__menu-list--item nav__menu-list--item---search">
+                <i class="nav__menu--search---child nav__menu--cart fa-solid fa-magnifying-glass"></i>
+              </li>
+            </div>
+        
+          </ul>
+        </nav>
+        <div class="menu__mobile">
+          <span class="menu__mobile-item--menu" name="icon-menu"> <i class="fa-solid fa-bars"></i></span>
+          <span class="menu__mobile-item--menu" name="icon-close"> <i class="fa-solid fa-rectangle-xmark"></i></span>
+         </div>
+        </div>
+        <div class="menu__mobile-overlay"></div>
+    </header>
+    <!-- end-header -->
+    <section id="slider" class="slider">
+      <div class="main__banner">
+        <div class="container">
+          <div class="row">
+            <div class="col-7">
+              <div class="main__banner-text">
+                <p class="main__banner-text--title">About Us</p>
+                <span class="main__banner-text--more"
+                  >Pet lovers rely on Becky’s Pet Care for professional dog
+                  walking and pet sitting.</span
+                >
+              </div>
+            </div>
+            <div class="col-5 d-f-j-e">
+              <div class="button_banner">
+                <a href="#" class="btn">Get A Quote</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="banner__img">
+          <img src="assets/img/dog-1.png" alt="">
+        </div>
+      </div>
+    </section>
+    <!-- end-siderbar-banner -->
+    <section id="breadcrumb" class="breadcrumb">
+      <div class="container">
+        <nav class="nav__breadcrumb">
+          <ol class="nav__breadcrumb-item">
+            <li class="nav__breadcrumb-item-child"><a href="#">Home</a></li>
+            <li class="nav__breadcrumb-item-child"><span>-</span></li>
+            <li class="nav__breadcrumb-item-child"><a href="#">Page</a></li>
+            <li class="nav__breadcrumb-item-child"><span>-</span></li>
+            <li class="nav__breadcrumb-item-child">About us</li>
+          </ol>
+        </nav>
+      </div>
+    </section>
+    <!-- end-breadcrumb -->
+    <section id="banner-bottom" class="banner-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-12">
+            <div class="group__banner">
+              <img
+                class="group__banner-img"
+                src="assets/img/egyptian-cat2.png"
+                alt="egyptian-cat"
+              />
+              <h4 class="heading-fourth">Healthy Pet Care</h4>
+              <span class="group__banner-text"
+                >We have over 15 years of experience</span
+              >
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <div class="group__banner">
+              <img
+                class="group__banner-img"
+                src="assets/img/dog-training2.png"
+                alt="dog-training"
+              />
+              <h4 class="heading-fourth">Request for Services</h4>
+              <span class="group__banner-text">Quality Pet Service</span>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <div class="group__banner">
+              <img
+                class="group__banner-img"
+                src="assets/img/pawprint.png"
+                alt="pawprint"
+              />
+              <h4 class="heading-fourth">$40 Off Purchase</h4>
+              <span class="group__banner-text"
+                >$100 off OR Special Financing!</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="us-mypet" class="us-mypet">
+      <div class="container">
+        <div class="row us__mypet">
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="us__mypet-title">
+              <p>We a</p>
+              <p>re</p>
+              <span>my</span><span>Pet</span>
+              <!-- <img src="assets/img/my Pet.png" alt="" /> -->
+            </div>
+            <div class="us__mypet-text">
+              Welcome! We are glad you would like to explore a different type of
+              pet care for your furry friends. We have been providing top-notch
+              pet sitting and pet care in the Littleton community since 1995 and
+              the Best Choice as an alternative to pet boarding
+            </div>
+            <div class="us__mypet-text">
+              There are many advantages of your pet staying in their own home.
+              Some of them are; no exposure to illnesses such as kennel cough,
+              canine flu, & parasites.
+            </div>
+            <div class="button">
+              <a href="#" class="btn">KNOW MORE</a>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="us__mypet-img">
+              <img src="assets/img//img-1.jpg" alt="" class="us__mypet--img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="progress-bar" class="progress-bar">
+      <div class="background__progress-bar">
+        <img src="assets/img/shape-1.png" alt="" />
+      </div>
+
+      <div class="main__progress-bar">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-12">
+              <figure class="figure__progress-bar">
+                <img
+                  src="assets/img/icon-1.png"
+                  class="figure__progress-bar--icon"
+                  alt="icon-1"
+                />
+                <div class="figure__progress-bar--text">
+                  <span class="figure__progress-bar--text---title"
+                    >happy customers</span
+                  >
+                  <p class="figure__progress-bar--text---number">210</p>
+                </div>
+              </figure>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+              <figure class="figure__progress-bar">
+                <img
+                  src="assets/img/icon-2.png"
+                  class="figure__progress-bar--icon"
+                  alt="icon-2"
+                />
+                <div class="figure__progress-bar--text">
+                  <span class="figure__progress-bar--text---title"
+                    >Customer Satisfaction</span
+                  >
+                  <p class="figure__progress-bar--text---number">100%</p>
+                </div>
+              </figure>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+              <figure class="figure__progress-bar">
+                <img
+                  src="assets/img/icon-3.png"
+                  class="figure__progress-bar--icon"
+                  alt="icon-3"
+                />
+                <div class="figure__progress-bar--text">
+                  <span class="figure__progress-bar--text---title"
+                    >Pet Hosted</span
+                  >
+                  <p class="figure__progress-bar--text---number">94</p>
+                </div>
+              </figure>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+              <figure class="figure__progress-bar">
+                <img
+                  src="assets/img/icon-4.png"
+                  class="figure__progress-bar--icon"
+                  alt="icon-4"
+                />
+                <div class="figure__progress-bar--text">
+                  <span class="figure__progress-bar--text---title"
+                    >Awards Winning</span
+                  >
+                  <p class="figure__progress-bar--text---number">234</p>
+                </div>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="pet-healt" class="pet-healt">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="pet__healt-left">
+              <p class="pet__healt-left-title">Our pet health care System</p>
+              <p class="pet__healt-left-text">
+                The doctors and staff at Pet Care Veterinary Hospital have years
+                of experience treating a variety of reptiles including Bearded
+                Dragons, Geckos, Snakes and Tortoises. Our hospital offers
+                physical exams, vaccinations, nutrition, behavioral and
+                environmental enrichment information for your pet ferret.
+              </p>
+              <div class="pet__healt-left--img">
+                <div class="row">
+                  <div class="col-6">
+                    <div class="pet__healt-left--img---group">
+                      <img src="assets/img/dog-training-3.png" alt="dog-training" />
+                      <p class="text">Home Delivery</p>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="pet__healt-left--img---group">
+                      <img src="assets/img/snowshoe-cat.png" alt="snowshoe-cat" />
+                      <p class="text">QUALITY Pet</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="pet__healt-right">
+              <p class="pet__healt-right--title">
+                Doing the right thing, Discover Our Products
+              </p>
+              <p class="pet__healt-right--text">
+                Our veterinarians and staff understand the importance of the
+                special bond you share with your pet and are dedicated to
+                providing the best that modern veterinary care has to offer
+              </p>
+              <div class="pet__healt-right--box">
+                <div class="pet__healt-right--box---group">
+                  <div class="box-group">
+                    <p class="pet__healt-right--box---group----text">
+                      Trusted Pet Sitters Across the Country
+                    </p>
+
+                    <i class="icon-box fa-solid fa-plus"></i>
+                  </div>
+                  <p class="pet__healt-right--box---group----moretext hidden">
+                    The perfect harmony between innovation and creativity, our
+                    bathroom tiles are produced in compliance with the
+                    international standards. High quality 20mm thick porcelain
+                    tiles that can be laid on pedestals
+                  </p>
+                </div>
+                <div class="pet__healt-right--box---group">
+                  <div class="box-group">
+                    <p class="pet__healt-right--box---group----text">
+                      What can I offer my bird as a treat?
+                    </p>
+
+                    <i class="icon-box fa-solid fa-plus"></i>
+                  </div>
+                  <p class="pet__healt-right--box---group----moretext hidden">
+                    The perfect harmony between innovation and creativity, our
+                    bathroom tiles are produced in compliance with the
+                    international standards. High quality 20mm thick porcelain
+                    tiles that can be laid on pedestals
+                  </p>
+                </div>
+                <div class="pet__healt-right--box---group">
+                  <div class="box-group">
+                    <p class="pet__healt-right--box---group----text">
+                      When Your Rabbit Stops Eating
+                    </p>
+
+                    <i class="icon-box fa-solid fa-plus"></i>
+                  </div>
+                  <p class="pet__healt-right--box---group----moretext hidden">
+                    The perfect harmony between innovation and creativity, our
+                    bathroom tiles are produced in compliance with the
+                    international standards. High quality 20mm thick porcelain
+                    tiles that can be laid on pedestals
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="testimonial" class="testimonial">
+      <h2 class="heading-second t-a-c">Client Review</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <figure class="figure__testimonial">
+              <div class="figure__testimonial-group">
+                <img
+                  src="assets/img/img-9.jpg"
+                  alt=""
+                  class="figure__testimonial-group--img"
+                />
+                <div class="figure__testimonial-group--info">
+                  <span class="figure__testimonial-group--info---name"
+                    >Mahfuz Riad</span
+                  >
+                  <p class="figure__testimonial-group--info---job">
+                    CEO, Company
+                  </p>
+                </div>
+              </div>
+              <div class="figure__testimonial-box">
+                <p class="figure__testimonial-box--text">
+                  I’ve been happy with the services provided by Finazi LLC.
+                  Felix has been wonderful! He has returned my calls quickly,
+                  and he answered all my questions.
+                </p>
+                <span class="icon-right-quote-alt"></span>
+              </div>
+            </figure>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <figure class="figure__testimonial">
+              <div class="figure__testimonial-group">
+                <img
+                  src="assets/img/img-37.jpg"
+                  alt=""
+                  class="figure__testimonial-group--img"
+                />
+                <div class="figure__testimonial-group--info">
+                  <span class="figure__testimonial-group--info---name"
+                    >Zuber All Hasan</span
+                  >
+                  <p class="figure__testimonial-group--info---job">
+                    CEO, Developer
+                  </p>
+                </div>
+              </div>
+              <div class="figure__testimonial-box">
+                <p class="figure__testimonial-box--text">
+                  I’ve been happy with the services provided by Finazi LLC.
+                  Felix has been wonderful! He has returned my calls quickly,
+                  and he answered all my questions.
+                </p>
+                <span class="icon-right-quote-alt"></span>
+              </div>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="logo-company" class="logo-company">
+      <div class="container">
+        <div class="row d-f-a">
+          <div class="col-3">
+            <img
+              src="assets/img//slide-logo-1.png"
+              class="company_logo-img"
+              alt="logo-company"
+            />
+          </div>
+          <div class="col-3">
+            <img
+              src="assets/img//slide-logo-2.png"
+              class="company_logo-img"
+              alt="logo-company"
+            />
+          </div>
+          <div class="col-3">
+            <img
+              src="assets/img//slide-logo-3.png"
+              class="company_logo-img"
+              alt="logo-company"
+            />
+          </div>
+          <div class="col-3">
+            <img
+              src="assets/img//slide-logo-4.png"
+              class="company_logo-img"
+              alt="logo-company"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="footer" class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-md-7 col-sm-12">
+           <div class="footer__left-item">
+            <div class="footer__img">
+              <img src="assets/img/them-main-logo-2.jpg" alt="logo-footer" />
+            </div>
+            <p class="footer__text">
+              <span>myPet</span> was established in 2017 by Pet business
+              veterans, Rod Davies and Matthew Levington, the journey began when
+              founders Matthew Levington and Rod Davies, met up in 2017 over a
+              beer
+            </p>
+           </div>
+           <div class="footer__left-item">
+            <ul class="footer__social">
+              <li class="footer__social-item">
+                <a href="#" class="footer__social-link"
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+              </li>
+              <li class="footer__social-item">
+                <a href="#" class="footer__social-link"
+                  ><i class="fa-brands fa-linkedin-in"></i
+                ></a>
+              </li>
+              <li class="footer__social-item">
+                <a href="#" class="footer__social-link"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+              </li>
+              <li class="footer__social-item">
+                <a href="#" class="footer__social-link"
+                  ><i class="fa-brands fa-dribbble"></i
+                ></a>
+              </li>
+            </ul>
+            <div class="footer__privary">
+              <p class="footer__privary-text">Privacy Policy</p>
+              <p class="footer__privary-text">Legal Policy</p>
+            </div>
+           </div>
+          </div>
+          <div class="col-lg-3 col-md-5 col-sm-6">
+              <div class="footer__about">
+                <p class="footer__title">Important Links</p>
+                <div class="footer__about-menu">
+                    <ul class="footer__list-useful">
+                      <li class="footer__list-useful--item">
+                        <a href="#" class="footer__list-useful--link">Support</a>
+                      </li>
+                      <li class="footer__list-useful--item">
+                        <a href="#" class="footer__list-useful--link">Aboutus</a>
+                      </li>
+                      <li class="footer__list-useful--item">
+                        <a href="#" class="footer__list-useful--link">Project</a>
+                      </li>
+                      <li class="footer__list-useful--item">
+                        <a href="#" class="footer__list-useful--link">Shop</a>
+                      </li>
+                      <li class="footer__list-useful--item">
+                        <a href="#" class="footer__list-useful--link"
+                          >Performance</a
+                        >
+                      </li>
+                      <li class="footer__list-useful--item">
+                        <a href="#" class="footer__list-useful--link">News</a>
+                      </li>
+                      <li class="footer__list-useful--item">
+                        <a href="#" class="footer__list-useful--link"
+                          >PetHealth Food</a
+                        >
+                      </li>
+                    </ul>            
+                    <ul class="footer__list-useful">
+                      <li class="footer__list-useful--item">
+                        <a href="#" class="footer__list-useful--link">Pet</a>
+                      </li>
+                      <li class="footer__list-useful--item">
+                        <a href="#" class="footer__list-useful--link"
+                          >Our History</a
+                        >
+                      </li>
+                      <li class="footer__list-useful--item">
+                        <a href="#" class="footer__list-useful--link"
+                          >What We Do</a
+                        >
+                      </li>
+                      <li class="footer__list-useful--item">
+                        <a href="#" class="footer__list-useful--link"
+                          >Living Areas</a
+                        >
+                      </li>
+                      <li class="footer__list-useful--item">
+                        <a href="#" class="footer__list-useful--link"
+                          >Pet Product</a
+                        >
+                      </li>
+                      <li class="footer__list-useful--item">
+                        <a href="#" class="footer__list-useful--link"
+                          >Contact us</a
+                        >
+                      </li>
+                    </ul>
+                 
+                </div>
+              </div> 
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+               <div class="footer__newblog">
+                <div class="footer__newblog-item">
+                  <p class="footer__title">News Update</p>
+                  <p class="footer__newblog-item--text">
+                    Prefinished Solid Hardwood Flooring
+                  </p>
+                  <span class="footer__newblog-item--date">january 02,2017</span>
+                </div>
+  
+                <div class="footer__newblog-item">
+                  <p class="footer__newblog-item--text">
+                    Latst pet care in summer 12 care them well
+                  </p>
+                  <span class="footer__newblog-item--date">january 07,2017</span>
+                </div>
+              
+            
+           </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <section id="bottom-footer" class="bottom-footer">
+      <div class="container">
+        <form class="footer__copyright">
+          <p class="footer__copyright-left">
+            Copyright © 2017 <a href="#"> myPet </a> All Rights Reserved by
+            <a href="#">Unifytheme</a>
+          </p>
+
+          <div class="footer__copyright-right">
+            <input
+              class="footer__copyright-input"
+              type="text"
+              placeholder="Your email"
+            />
+            <button class="footer__copyright-button" type="submit">
+              SUBCRIBE
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <div class="overlays hidden2">
+      <div class="container">
+        <div class="overlays__input">
+          <div class="overlays__input-icon--close"> 
+           <i class="fa-solid fa-xmark "></i>
+          </div>
+          <img src="assets/img/my Pet.png" alt="" class="overlays__input-img" />
+          <div class="overlays__input-group">
+          <input type="text" class="overlays__input-input" placeholder="Search to here ..."/>
+          <i class="fa-solid fa-magnifying-glass overlays__input-icon"></i>
+          </div> 
+        </div>
+      </div>
+      </div>
+      <div class="scroon-top">
+        <i class="fa-solid fa-angles-up scroon-top--icon"></i>
+      </div>
+    <script src="assets/js/script.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
+  </body>
+</html>

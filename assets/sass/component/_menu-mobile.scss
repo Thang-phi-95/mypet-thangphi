@@ -1,0 +1,13 @@
+
+.menu__mobile {
+  font-size: 7rem;
+  z-index: 99;
+  display: none;
+  &-item {
+    &--menu {
+      display: none;
+     
+
+    }
+  }
+}

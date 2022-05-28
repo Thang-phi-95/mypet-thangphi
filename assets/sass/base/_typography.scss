@@ -1,0 +1,103 @@
+a.link::link,
+a.link:visited {
+  color: $color-white;
+}
+a.link:hover,
+a.link:active {
+  color: $color-red;
+  transition: color ease-in-out 0.2s;
+}
+
+.heading-primary {
+  font-family: "Pacifico", cursive;
+  font-size: 7.4rem;
+  font-weight: normal;
+  color: $color-white;
+}
+
+.heading-second {
+  font-family: "Yrsa", serif;
+  font-size: 4.5rem;
+  font-weight: 500;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    top: -22px;
+    right: 48%;
+    width: 7.4rem;
+    border-top: 2px solid $color-red;
+  }
+}
+.heading-fourth {
+  font-weight: 300;
+  font-size: 2.2rem;
+}
+.heading-third {
+  font-family: "Yrsa", serif;
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+.heading-sup {
+  color: $color-white;
+  font-size: 1.8rem;
+  font-weight: 600;
+  font-style: italic;
+  letter-spacing: 0.1rem;
+}
+.sub-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.8rem;
+  font-style: italic;
+  color: #7f7f7f;
+}
+
+.hidden {
+  display: none;
+}
+.visited{
+  display: block;
+}
+.hidden2 {
+  display: none;
+transition: all .5s;
+}
+
+.btn {
+  &:visited,
+  &:link {
+    width: 19.5rem;
+    height: 5rem;
+    margin-top: 5.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: rgba($color: $color-white, $alpha: 0.9);
+    background-color: rgba($color: $color-red, $alpha: 0.9);
+    border-radius: 3rem;
+    transition: all 0.8s;
+    position: relative;
+    text-transform: uppercase;
+  }
+
+  &:hover,
+  &:active {
+    background-color: rgba($color: $color-red, $alpha: 1);
+    color: rgba($color: $color-white, $alpha: 1);
+    box-shadow: 7px 15px 20px rgba($color-black, 0.3);
+    transform: translateY(-1rem);
+  }
+}
+
+.sticky {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10rem !important;
+  box-shadow: 0 0 1rem rgba($color: $color-red, $alpha: 0.5);
+  background-color: $color-white !important;
+  z-index: 9999 !important;
+}

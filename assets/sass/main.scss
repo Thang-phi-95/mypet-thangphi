@@ -1,0 +1,48 @@
+/*font*/
+//  font-family: "Pacifico", cursive;
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&family=Yrsa:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+/*-----------abstracts------------*/
+@import "./abstracts/functions";
+@import "./abstracts/mix";
+@import "./abstracts/valible";
+/*-----------base------------*/
+@import "./base/animation";
+@import "./base/base";
+@import "./base/typography";
+@import "./base/utilities";
+/*-----------component------------*/
+@import "./component/menu-mobile";
+@import "./component/banner";
+@import "./component/breadcrumb";
+@import "./component/Pagination";
+@import "./component/tab-menu";
+@import "./component/dots";
+@import "./component/list-product";
+@import "./component/overlay";
+@import "./component/scroom-top";
+/*-----------layout------------*/
+@import "./layout/topbar";
+@import "./layout/header";
+@import "./layout/logo-company";
+@import "./layout/footer";
+/*-----------pages------------*/
+@import "./pages/home";
+@import "./pages/home2";
+@import "./pages/about";
+@import "./pages/details-servers";
+@import "./pages/gallery";
+@import "./pages/gallery-version2";
+@import "./pages/gallery-version3";
+@import "./pages/team";
+@import "./pages/testimonial";
+@import "./pages/blog";
+@import "./pages/blog-version3";
+@import "./pages/contact";
+@import "./pages/shop";
+@import "./pages/shopdetail";
+@import "./pages/fag";
+@import "./pages/error";
+@import "./base/gird";

@@ -1,0 +1,242 @@
+.footer {
+  background-color: $color-brow;
+  color: $color-grey--light;
+  padding: 9rem 0 6.2rem;
+  &__img {
+    padding-bottom: 4.6rem;
+  }
+  &__text {
+    font-size: 1.6rem;
+    line-height: 1.4;
+    padding-bottom: 6.5rem;
+    width: 84%;
+    span {
+      color: $color-red;
+    }
+  }
+  &__social {
+    display: flex;
+    align-items: center;
+    padding-bottom: 5rem;
+    &-item:not(:last-child) {
+      margin-right: 2.3rem;
+    }
+    &-link {
+      font-size: 1.6rem;
+      text-decoration: none;
+      color: $color-grey--light;
+      transition: all 0.5s;
+      &:hover {
+        color: $color-red;
+      }
+    }
+  }
+  &__privary {
+    display: flex;
+    &-text {
+      font-family: "Lato", serif;
+      font-size: 1.6rem;
+      padding: 0 1rem;
+      transition: all 0.5s;
+      cursor: pointer;
+
+      &:first-child {
+        padding-left: 0;
+        border-right: 1px solid $color-grey--light;
+      }
+      &:hover {
+        color: $color-red;
+      }
+    }
+  }
+  &__about {
+    &-menu {
+      display: flex;
+      column-gap: 4rem;
+    }
+  }
+  &__title {
+    font-family: "Yrsa", serif;
+    font-size: 2rem;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 6.3rem;
+    &::before {
+      content: "";
+      position: absolute;
+      width: 25%;
+      bottom: 50%;
+      transform: translateY(-50%);
+      left: 0%;
+      border-bottom: 2px solid $color-red;
+    }
+  }
+  &__list-useful {
+    &--item:not(:last-child) {
+      padding-bottom: 2.7rem;
+    }
+    &--link {
+      text-decoration: none;
+      color: $color-grey--light;
+      font-size: 1.6rem;
+      transition: all 0.5s;
+      &:hover {
+        color: $color-red;
+      }
+    }
+  }
+}
+.footer__newblog {
+  margin-left: 8rem;
+  &-item {
+    &--text {
+      font-size: 1.6rem;
+      line-height: 1.4;
+      transition: all 0.5s;
+
+      &:hover {
+        color: $color-red;
+      }
+    }
+    &--date {
+      font-size: 1.4rem;
+      color: $color-grey--light---2;
+      padding: 1.8rem 0 3rem;
+      display: block;
+    }
+    &:nth-of-type(1) {
+      border-bottom: 1px solid $color-grey--light---2;
+      margin-bottom: 3rem;
+    }
+  }
+}
+/*bottom footer*/
+.bottom-footer {
+  background-color: $color-black;
+  height: 10.6rem;
+  display: flex;
+  align-items: center;
+}
+.footer__copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fefefe;
+  &-left {
+    font-size: 1.6rem;
+    a {
+      text-decoration: none;
+      color: $color-red;
+    }
+  }
+  &-right {
+    position: relative;
+    display: flex;
+  }
+  &-input {
+    font-family: "Lato", serif;
+    font-size: 1.6rem;
+    background-color: $color-grey--dark---2;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    padding-left: 1.5rem;
+    position: relative;
+    width: 42.5rem;
+    outline: none;
+    border: none;
+
+    &:focus {
+      color: $color-grey--dark;
+    }
+  }
+  &-button {
+    background-color: $color-red;
+    color: $color-white;
+    font-size: 1.6rem;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    height: 4rem;
+    width: 14.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    &:hover {
+      border: 1px solid $color-grey--light;
+    }
+  }
+}
+/*----------------------responsive----------------------*/
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+}
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+}
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  .footer {
+    height: unset;
+  }
+}
+@media (max-width: 820px) {
+  .footer__about {
+    margin-left: 0rem;
+
+    &-menu {
+      column-gap: 3rem;
+    }
+  }
+
+  .footer__newblog {
+    margin-left: 0rem;
+  }
+  // .footer__title::before {
+  //   content: "";
+
+  //   left: 6%;}
+}
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 768px) {
+  .footer__privary {
+    margin-top: -3rem;
+    padding-bottom: 2rem;
+  }
+  .footer__left-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 5rem;
+  }
+  p.footer__title {
+    margin-right: 8rem;
+  }
+  .footer__about {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+}
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .footer__newblog {
+    margin-left: 0;
+    margin-top: 4rem;
+  }
+  .footer__title::before {
+    width: 6%;
+  }
+  .footer__title::before {
+    width: 4rem;
+  }
+  .footer__about {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+// XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width

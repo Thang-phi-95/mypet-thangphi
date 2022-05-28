@@ -1,0 +1,32 @@
+.breadcrumb {
+  height: 5.5rem;
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0.01rem 1rem #3a393936;
+}
+ol {
+  list-style: none;
+}
+
+.nav__breadcrumb {
+  &-item {
+    display: flex;
+    align-items: center;
+  
+
+    &-child {
+      font-size: 1.4rem;
+      color: $color-red;
+      span {
+        padding: 0 0.5rem;
+        color:$color-grey--light---2;
+      }
+      a {
+        font-size: 1.6rem;
+        text-decoration: none;
+        color: $color-grey--light---2;
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "mypet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  },
+  "scripts": {
+    "compile:sass": "node-sass assets/sass/main.scss assets/css/style.css -w"
+  },
+  "author": "thangphi1995",
+  "license": "ISC",
+  "dependencies": {
+    "git": "^0.1.5"
+  }
+}

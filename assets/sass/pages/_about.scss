@@ -1,0 +1,67 @@
+.about__us-pet--title {
+  font-size: 3.5rem;
+  font-weight: 500;
+  line-height: 1.4;
+  padding-bottom: 5rem;
+}
+.about__us-mypet-span {
+  font-size: 1.8rem;
+  padding-bottom: 4.5rem;
+  display: block;
+}
+.about__us-pet--video {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  height: 56.6rem;
+  position: relative;
+}
+.overlay {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to right, rgba(red, 0.3), rgba(red, 0.4)),
+    url("assets/img/img-cat-2.jpg");
+  z-index: 1;
+  display: flex;
+  iframe {
+    z-index: -1;
+  }
+}
+ion-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 8rem;
+  color: $color-white;
+  cursor: pointer;
+  display: flex;
+}
+.bg-video {
+  width: 100%;
+  height: 100%;
+}
+/*-----------------responsive-----------------------*/
+// X-Large devices (large desktops, less than 1400px)
+// @media (max-width: 1399.98px) {
+
+// }
+// Large devices (desktops, less than 1200px)
+// @media (max-width: 1199.98px) {
+
+// }
+// Medium devices (tablets, less than 992px)
+// @media (max-width: 991.98px) {
+// }
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 768px) {
+  .background__progress-bar {
+    position: absolute;
+    top: -2px !important;
+  }
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+}
+// XX-Large devices (larger desktops)
+// // No media query since the xxl breakpoint has no upper bound on its width

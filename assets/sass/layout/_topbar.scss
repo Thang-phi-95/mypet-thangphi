@@ -1,0 +1,67 @@
+.topbar,
+.topbar2 {
+  background-color: #343333;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+  &__main {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__address {
+    display: flex;
+    &-item {
+      &--link:link,
+      &--link:visited {
+        color: #fff;
+        text-decoration: none;
+      }
+      &:first-child {
+        margin-right: 5.5rem;
+        display: inline-block;
+      }
+    }
+    &-icon {
+      margin-right: 2rem;
+    }
+  }
+
+  &__social {
+    display: flex;
+    &-item {
+      margin-right: 4rem;
+      &:nth-of-type(4) {
+        margin-right: 0;
+      }
+      &--link {
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+  }
+}
+/*topbar-version-2*/
+.topbar2 {
+  background-color: $color-white;
+  &__address {
+    &-item {
+      &--link:link,
+      &--link:visited {
+        color: $color-black;
+        span {
+          color: $color-red;
+        }
+      }
+    }
+  }
+
+  &__social {
+    &-item {
+      &--link {
+        color: $color-black ;
+        text-decoration: none;
+      }
+    }
+  }
+}
