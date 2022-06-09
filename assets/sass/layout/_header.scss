@@ -106,7 +106,7 @@
       &::before {
         content: "";
         width: inherit;
-        height: 6.4rem;
+        height: 8.4rem;
         background-color: transparent;
         position: absolute;
         top: -64px;
@@ -438,13 +438,14 @@
   .nav__menu2-list--item:hover .nav__menu2-list--sub {
     top: 6rem;
     left: 0rem;
+    
   }
   .nav__menu {
     &-list {
       &::before {
         top: 50%;
         left: 25%;
-        height: 8.4rem;
+       
       }
     }
   }
